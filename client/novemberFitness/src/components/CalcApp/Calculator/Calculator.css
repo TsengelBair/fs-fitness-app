@@ -1,0 +1,19 @@
+.calculator {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.calculator_inner {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #6fa763;
+  border-radius: 10px;
+}
+
+.form_container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 165px;
+  position: relative;
+}

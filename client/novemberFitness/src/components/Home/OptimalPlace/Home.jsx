@@ -1,6 +1,8 @@
 import Header from "./Header";
 import Cabinets from "./Cabinet";
 import "./home.css";
+import Calculator from "../../CalcApp/Calculator/Calculator";
+import MainCalc from "../../CalcApp/Main/MainCalc";
 
 const Main = () => {
   return (
@@ -18,6 +20,8 @@ const Main = () => {
           </div>
         </div>
       </main>
+      <MainCalc />
+      <Calculator />
     </div>
   );
 };

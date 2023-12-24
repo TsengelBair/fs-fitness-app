@@ -1,0 +1,31 @@
+.calculator_inner_title {
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+
+.button_gender {
+  font-weight: 400;
+  background-color: #fff;
+  color: #010000;
+}
+
+.button_gender.active {
+  background-color: #010000;
+  color: #fff;
+}
+
+.button_male {
+  padding: 19px 65px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.button_female {
+  padding: 19px 52px;
+  position: absolute;
+  left: 327px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

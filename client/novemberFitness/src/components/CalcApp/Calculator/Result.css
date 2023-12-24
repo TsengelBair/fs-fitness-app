@@ -1,0 +1,33 @@
+.result {
+  background-color: #010000;
+  margin-right: 168px;
+  border-radius: 25px;
+  margin-top: 50px;
+  height: 150px;
+}
+
+.result_title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #6fa763;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.result_blocks {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+.result_block + .result_block {
+  padding-left: 48px;
+}
+
+.result_block_title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #e1e1e1;
+}

@@ -1,0 +1,43 @@
+.main_inner {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.main_title {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 700;
+  color: #010101;
+}
+
+.main_img {
+  padding-top: 50px;
+  stroke: #010101;
+  stroke-width: 2;
+  stroke-dasharray: 100%, 0;
+  animation: strokeAnimation 7s linear infinite;
+}
+
+@keyframes strokeAnimation {
+  0% {
+    stroke-dasharray: 0, 100%;
+  }
+  100% {
+    stroke-dasharray: 100%, 0;
+  }
+}
+
+.main_text {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #010101;
+}
+
+.main_text_1 {
+  padding-top: 50px;
+}
+
+.main_text_2 {
+  padding-top: 10px;
+}

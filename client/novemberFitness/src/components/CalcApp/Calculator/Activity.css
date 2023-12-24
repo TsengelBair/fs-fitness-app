@@ -1,0 +1,29 @@
+.calculator_inner_activity {
+  padding-top: 50px;
+}
+
+.switcher {
+  padding-top: 20px;
+}
+
+.switcher_item + .switcher_item {
+  padding-top: 25px;
+}
+
+.radio_container {
+  padding-top: 20px;
+}
+
+.radio_container label {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.sub_label {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0.75;
+}

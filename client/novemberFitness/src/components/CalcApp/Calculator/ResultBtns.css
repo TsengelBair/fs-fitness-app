@@ -1,0 +1,17 @@
+.form_buttons {
+  padding-top: 50px;
+}
+
+.form_button {
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.form_button_2 {
+  padding: 15px 41px;
+  margin-left: 10px;
+}
+
+span {
+  color: white;
+}
