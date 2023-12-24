@@ -46,19 +46,14 @@ const Cabinets = () => {
       (num) => !selectedNums.includes(num)
     );
 
-    let maxDistance = -1;
-    let optimalNumber = null;
-
-    remainingNumbers.forEach((num) => {
-      const minDistance = Math.min(
+    let minDistances = remainingNumbers.map((num) => {
+      return Math.min(
         ...selectedNums.map((selected) => Math.abs(selected - num))
       );
-
-      if (minDistance > maxDistance) {
-        maxDistance = minDistance;
-        optimalNumber = num;
-      }
     });
+
+    let maxDistance = Math.max(...minDistances);
+    let optimalNumber = remainingNumbers[minDistances.indexOf(maxDistance)];
 
     return optimalNumber;
   };
