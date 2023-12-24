@@ -1,0 +1,157 @@
+@import "./normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Bebas+Neue&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: #eeeeee;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  font-family: "Bebas Neue";
+  background-color: black;
+  border-radius: 50px;
+  color: #eeeeee;
+  margin-top: 15px;
+}
+
+.header__inner-items {
+  padding: 38px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.header__inner-logo {
+  font-size: 42px;
+}
+
+.header__inner-btns {
+  font-family: "Barlow Condensed";
+  font-size: 32px;
+  font-weight: 400;
+  display: flex;
+  cursor: pointer;
+}
+
+.header__inner-btn + .header__inner-btn {
+  padding-left: 25px;
+}
+
+/* Main */
+
+.main {
+  padding-bottom: 75px;
+}
+
+.main__inner {
+  padding-top: 65px;
+  font-family: "Barlow Condensed";
+  font-size: 120px;
+  font-weight: bold;
+  position: relative;
+}
+
+.main__inner-text {
+  padding-bottom: 65px;
+  line-height: 1;
+  font-family: "Barlow Condensed";
+  font-size: 120px;
+  font-weight: bold;
+  max-width: 1035px;
+  margin: 0 auto;
+}
+
+.main__inner-btn {
+  font-size: 22px;
+  font-weight: 600;
+  position: absolute;
+  top: 210px; /* Положение относительно верхней границы контейнера */
+  left: 760px; /* Положение относительно левой границы контейнера */
+  padding: 27px 22px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+.main__inner-img {
+  padding-left: 45px;
+}
+
+/* INFO */
+
+.info__inner {
+  font-family: "Barlow Condensed";
+  padding-left: 68px;
+  padding-bottom: 140px;
+  display: flex;
+}
+
+.info__inner-title {
+  font-weight: 600;
+  color: #f77c2f;
+  padding-bottom: 5px;
+}
+
+.info__inner-content {
+  max-width: 720px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 1%;
+}
+
+.info__inner-qr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  padding-top: 30px;
+  padding-left: 90px;
+}
+
+.info__inner-subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.info__inner-btn {
+  padding: 20px 40px;
+  background-color: #f77c2f;
+  color: #eeeeee;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footer__inner-img {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
