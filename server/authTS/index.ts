@@ -30,3 +30,5 @@ const start = () => {
 };
 
 start();
+
+export default app;
