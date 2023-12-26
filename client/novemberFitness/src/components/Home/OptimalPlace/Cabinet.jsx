@@ -3,6 +3,7 @@ import React, { useState } from "react";
 const Cabinet = ({ number, onClick, isHighlighted }) => {
   return (
     <div
+      role="button"
       style={{
         width: "25px",
         height: "50px",
@@ -46,14 +47,14 @@ const Cabinets = () => {
       (num) => !selectedNums.includes(num)
     );
 
-    let minDistances = remainingNumbers.map((num) => {
+    let distances = remainingNumbers.map((num) => {
       return Math.min(
         ...selectedNums.map((selected) => Math.abs(selected - num))
       );
     });
 
-    let maxDistance = Math.max(...minDistances);
-    let optimalNumber = remainingNumbers[minDistances.indexOf(maxDistance)];
+    let maxDistance = Math.max(...distances);
+    let optimalNumber = remainingNumbers[distances.indexOf(maxDistance)];
 
     return optimalNumber;
   };

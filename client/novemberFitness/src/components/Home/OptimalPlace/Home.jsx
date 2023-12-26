@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Cabinets from "./Cabinet";
+import Cabinet from "./Cabinet";
 import "./home.css";
 import Calculator from "../../CalcApp/Calculator/Calculator";
 import MainCalc from "../../CalcApp/Main/MainCalc";
@@ -16,7 +16,7 @@ const Main = () => {
               Вы можете выбрать любое место, но для первого посетителя
               оптимальным будет первое или последнее
             </h2>
-            <Cabinets />
+            <Cabinet />
           </div>
         </div>
       </main>
